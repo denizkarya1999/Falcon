@@ -1,0 +1,85 @@
+# Visual Studio specific files
+.vscode/
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Build directories
+[Bb]uild/
+[Bb]in/
+[Oo]ut/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+
+# Windows specific files
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.ilk
+*.idb
+*.tlog
+*.log
+*.sdf
+*.ipch
+*.aps
+*.ncb
+*.user
+*.opendb
+*.suo
+*.tlb
+*.tli
+*.pch
+*.rsp
+*.scc
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+*.manifest
+*.pdb
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# MFC Specific
+*.idb
+*.exp
+*.lib
+*.sbr
+*.sln.docstates
+*.bsc
+
+# Crash reports
+*.mdmp
+
+# IDE configuration files
+*.suo
+*.user
+*.ipch
+*.iobj
+*.ipdb
+*.idb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore directories for specific toolchains
+Debug/
+Release/
+x64/
+x86/
