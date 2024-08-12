@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Falcon", "Falcon.vcxproj", "{B550A7E6-1282-4D71-8398-DD1F4E05D739}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FalconDynamicLibrary", "FalconDynamicLibrary\FalconDynamicLibrary.vcxproj", "{E8D4AB43-981E-4C8D-9930-1B21250834F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{B550A7E6-1282-4D71-8398-DD1F4E05D739}.Release|x64.Build.0 = Release|x64
 		{B550A7E6-1282-4D71-8398-DD1F4E05D739}.Release|x86.ActiveCfg = Release|Win32
 		{B550A7E6-1282-4D71-8398-DD1F4E05D739}.Release|x86.Build.0 = Release|Win32
+		{E8D4AB43-981E-4C8D-9930-1B21250834F2}.Debug|x64.ActiveCfg = Debug|x64
+		{E8D4AB43-981E-4C8D-9930-1B21250834F2}.Debug|x64.Build.0 = Debug|x64
+		{E8D4AB43-981E-4C8D-9930-1B21250834F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{E8D4AB43-981E-4C8D-9930-1B21250834F2}.Debug|x86.Build.0 = Debug|Win32
+		{E8D4AB43-981E-4C8D-9930-1B21250834F2}.Release|x64.ActiveCfg = Release|x64
+		{E8D4AB43-981E-4C8D-9930-1B21250834F2}.Release|x64.Build.0 = Release|x64
+		{E8D4AB43-981E-4C8D-9930-1B21250834F2}.Release|x86.ActiveCfg = Release|Win32
+		{E8D4AB43-981E-4C8D-9930-1B21250834F2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

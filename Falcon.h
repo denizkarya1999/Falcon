@@ -25,6 +25,7 @@ public:
 	virtual BOOL InitInstance();
 	HACCEL m_hAccelTable_File_Menu;
 	HACCEL m_hAccelTable_Help_Menu;
+	HACCEL m_hAccelTable_Tools_Menu;
 
 // Implementation
 

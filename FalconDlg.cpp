@@ -13,13 +13,13 @@
 #include "New_Task_Dialog.h"
 #include "New_Branch_Warning_Dialog.h"
 #include "New_Subtask_Dialog.h"
+#include "ProductivityCalculatorDialog.h"
 #include "afxdialogex.h"
 #include <Shellapi.h>
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
-
 
 // CAboutDlg dialog used for App About
 
@@ -105,6 +105,8 @@ BEGIN_MESSAGE_MAP(CFalconDlg, CDialogEx)
 	ON_BN_CLICKED(IDC_BUTTON_NEW_SUBTASK, &CFalconDlg::OnBnClickedButtonNewSubtask)
 	ON_BN_CLICKED(IDC_BUTTON_CLEAR_SCREEN, &CFalconDlg::OnBnClickedButtonClearScreen)
 	ON_BN_CLICKED(IDC_BUTTON_NEW_BRANCH_WARNING, &CFalconDlg::OnBnClickedButtonNewBranchWarning)
+	ON_COMMAND(ID_TOOLS_PRODUCTIVITYSCORECALCULATOR, &CFalconDlg::OnToolsProductivityScoreCalculatorClick)
+	ON_COMMAND(ID_ACCELERATOR_PRODUCTIVITY_SCORE, &CFalconDlg::OnAcceleratorProductivityScore)
 END_MESSAGE_MAP()
 
 
@@ -295,6 +297,13 @@ void CFalconDlg::OnHelpAboutfalcon()
 	aboutDlg.DoModal();
 }
 
+//Opens the productivity dialog when user clicks on "ProductivityScoreCalculator"
+void CFalconDlg::OnToolsProductivityScoreCalculatorClick()
+{
+	ProductivityCalculatorDialog productivityDlg(this);
+	productivityDlg.DoModal();
+}
+
 
 // Accelerator Command Handlers for "Weekly Bulletin"
 //-------------------------------------------------------------------------------
@@ -368,6 +377,14 @@ void CFalconDlg::OnAcceleratorWebsite()
 	// Open the URL in the default web browser
 	ShellExecute(0, _T("open"), url, 0, 0, SW_SHOWNORMAL);
 }
+
+// This event handler closes the program when the user presses on CTRL + P.
+void CFalconDlg::OnAcceleratorProductivityScore()
+{
+	ProductivityCalculatorDialog productivityDlg(this);
+	productivityDlg.DoModal();
+}
+
 
 //This event handler opens up a new dialog to create a branch.
 void CFalconDlg::OnBnClickedButtonNewBranch()

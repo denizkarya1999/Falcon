@@ -14,6 +14,8 @@
 #define IDD_DIALOG_NEW_BRANCH_WARNING   137
 #define IDD_DIALOG_NEW_TASK             139
 #define IDD_DIALOG_NEW_SUBTASK          141
+#define IDD_DIALOG_PRODUCTIVITY_CALCULATOR 143
+#define IDR_ACCELERATOR_TOOLS_MENU      145
 #define IDC_BUTTON_SAVE                 1000
 #define IDC_BUTTON_DELETE               1001
 #define IDC_BULLETIN_DISPLAY            1002
@@ -36,7 +38,6 @@
 #define IDC_EDIT_TASK_ID                1020
 #define IDC_EDIT_SUBTASK_DESCRIPTION    1021
 #define IDC_EDIT_SUBTASK_DUE_DATE       1022
-#define IDC_SCROLLBAR_HORIZANTAL        1026
 #define ID_FILE_NEWBULLETIN             32771
 #define ID_FILE_OPEN32772               32772
 #define ID_FILE_SAVE32773               32773
@@ -56,13 +57,16 @@
 #define ID_FILE_SAVE_AS32773            32789
 #define ID_FILE_SAVE32790               32790
 #define ID_ACCELERATOR32792             32792
+#define ID_TOOLS_PRODUCTIVITYSCORECALCULATOR 32794
+#define ID_ACCELERATOR32795             32795
+#define ID_ACCELERATOR_PRODUCTIVITY_SCORE 32795
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        143
-#define _APS_NEXT_COMMAND_VALUE         32794
+#define _APS_NEXT_RESOURCE_VALUE        146
+#define _APS_NEXT_COMMAND_VALUE         32797
 #define _APS_NEXT_CONTROL_VALUE         1027
 #define _APS_NEXT_SYMED_VALUE           101
 #endif

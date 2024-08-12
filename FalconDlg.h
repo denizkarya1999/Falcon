@@ -55,6 +55,7 @@ public:
 	afx_msg void OnBnClickedButtonNewSubtask();
 	afx_msg void OnBnClickedButtonNewBranchWarning();
 	afx_msg void OnBnClickedButtonClearScreen();
+	afx_msg void OnToolsProductivityScoreCalculatorClick();
 
 	// Accelerator Helper Methods
 	afx_msg void OnAcceleratorOpen();
@@ -67,6 +68,7 @@ public:
 	afx_msg void OnBnClickedButtonSave();
 	afx_msg void OnBnClickedButtonDelete();
 	afx_msg void OnAccelerator32792();
+	afx_msg void OnAcceleratorProductivityScore();
 
 	//Helper methods for the handlers
 	bool Open();

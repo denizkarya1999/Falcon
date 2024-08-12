@@ -54,6 +54,9 @@
     <ClInclude Include="New_Subtask_Dialog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ProductivityCalculatorDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Falcon.cpp">
@@ -80,6 +83,9 @@
     <ClCompile Include="New_Subtask_Dialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ProductivityCalculatorDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Falcon.rc">
@@ -98,5 +104,8 @@
     <Image Include="res\icon1.ico">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="FalconDynamicLibrary.lib" />
   </ItemGroup>
 </Project>

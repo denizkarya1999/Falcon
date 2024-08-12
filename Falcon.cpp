@@ -56,6 +56,7 @@ BOOL CFalconApp::InitInstance()
 	// Load the accelerator tables
 	m_hAccelTable_File_Menu = LoadAccelerators(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDR_ACCELERATOR_FILE_MENU));
 	m_hAccelTable_Help_Menu = LoadAccelerators(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDR_ACCELERATOR_HELP_MENU));
+	m_hAccelTable_Tools_Menu = LoadAccelerators(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDR_ACCELERATOR_TOOLS_MENU));
 
 	// Create the shell manager, in case the dialog contains
 	// any shell tree view or shell list view controls.
@@ -112,6 +113,13 @@ BOOL CFalconApp::ProcessMessageFilter(int code, LPMSG lpMsg)
 	if (code >= 0 && m_pMainWnd && m_hAccelTable_File_Menu)
 	{
 		if (m_hAccelTable_Help_Menu && ::TranslateAccelerator(m_pMainWnd->m_hWnd, m_hAccelTable_File_Menu, lpMsg))
+		{
+			return TRUE;
+		}
+	}
+	if (code >= 0 && m_pMainWnd && m_hAccelTable_Tools_Menu)
+	{
+		if (m_hAccelTable_Tools_Menu && ::TranslateAccelerator(m_pMainWnd->m_hWnd, m_hAccelTable_Tools_Menu, lpMsg))
 		{
 			return TRUE;
 		}
