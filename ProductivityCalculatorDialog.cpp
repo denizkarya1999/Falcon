@@ -12,9 +12,9 @@
 #endif
 
 //Import the DLL Variables used.
-extern "C" _declspec(dllexport) int CalculateScoreBasedOnExtracurriculars(const int HoursOfExtracurricular);
-extern "C" _declspec(dllexport) int CalculateScoreBasedOnWorkHours(const int WorkHours);
-extern "C" _declspec(dllexport) int CalculateScoreBasedOnUniversityCredits(const int UniversityCredits);
+extern "C" _declspec(dllimport) int CalculateScoreBasedOnExtracurriculars(const int HoursOfExtracurricular);
+extern "C" _declspec(dllimport) int CalculateScoreBasedOnWorkHours(const int WorkHours);
+extern "C" _declspec(dllimport) int CalculateScoreBasedOnUniversityCredits(const int UniversityCredits);
 
 // ProductivityCalculatorDialog dialog
 
