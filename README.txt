@@ -54,6 +54,16 @@ Special Instructions:
   Clear Screen:
    # Once you click on "Clear Screen" button the screen will be cleared.
    Bug Warning: If you create proceed to create a new bulletin, the screen might not be cleared we highly recommend to restart the app if you want to create a new bulletin.
+ For Productivity Calculator:
+  Productivity Score Definitions:
+   # 0 to 25 -> Not Productive
+   # 75 to 76 -> Minimum Productivity
+   # 80 to 81 -> Below Average Productivity
+   # 85 to 86 -> Average Productivity
+   # 90 to 91 -> Above Average Productivity
+   # 95 to 96 -> Very Productive
+   # 100 to 101 -> Super Productive
+   # Greater than 101 -> Maximum Productivity 
 System Requirements:
  Operating System:
   Windows 7 or later (32-bit or 64-bit)
